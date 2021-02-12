@@ -1,0 +1,1295 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+    }
+
+.banner-01 {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-image: url('../img/composition-with-tasty-hamburger-and-copy-space.jpg');
+background-size: cover;
+height: 879px;
+background-color: rgba(0,0,0,0.6);
+
+}
+
+
+
+.banner-01-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 68%;
+height: 879px;
+
+}
+
+.banner-02-element {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 32%;
+    height: 879px;
+    
+}
+
+.title01 {
+
+color: aliceblue;
+margin-top: 10%;
+
+
+}
+
+.title02 {
+
+color: aliceblue;
+
+}
+
+.text01 {
+
+color: aliceblue;
+
+}
+
+.myButton {
+	background-color:#f60000;
+	border-radius:28px;
+	border:1px solid #f60000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #f60000;
+    width: 95px;
+}
+.myButton:hover {
+	background-color:#f60000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.menu, nav, ul {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-basis: 100%;
+justify-content: space-between;
+
+}
+
+.item-menu {
+
+color: aliceblue;
+list-style: none;
+margin-right: 5%;
+margin-top: 2%;
+
+
+}
+
+.menu-item {
+
+color: aliceblue;
+
+
+}
+
+.logo {
+
+margin-right: 25%;
+
+}
+
+.chef-banner {
+background-image: url('../img/combos.png');
+background-size: cover;
+background-repeat: no-repeat;
+height: 950px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 100%;
+
+
+
+}
+
+.chef-title {
+
+text-align: center;
+color: #f60000;
+
+
+}
+
+.chef-description {
+
+
+text-align: center;
+justify-content: flex-start;
+margin-left: 25%;
+margin-right: 25%;
+color: #f60000;
+
+}
+
+.chef-list {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+
+.chef-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 30%;
+margin-left: 1%;
+margin-right: 1%;
+text-align: center;
+
+
+}
+
+.chef-img {
+
+height: 150px;
+width: 150px;
+align-items: center;
+align-self: center;
+text-align: center;
+border-radius: 50%;
+
+}
+
+.chef-name {
+
+color: #f60000;
+
+}
+
+.chef-position {
+
+color: #f60000;
+
+}
+
+.best-burger {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-image: url('../img/statistics-background..png');
+height: 789px;
+
+}
+
+.best-burger-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 48%;
+margin-left: 1%;
+margin-right: 1%;
+
+}
+
+.best-hamburger-img {
+
+
+border-radius: 50%;
+width: 450px;
+height: 450px;
+margin-left: 15%;
+
+}
+
+.best-burger-title {
+
+margin-top: 28%;
+color: #ffffff;
+text-align: center;
+
+
+}
+
+.best-burger-description {
+
+color: #ffffff;
+text-align: center;
+
+}
+
+.myButton01 {
+
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+    color: #f60000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+	width: 95px;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+
+}
+
+.statistics {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+background-image: url('../img/statistics-background..png');
+height: 700px;
+
+}
+
+.statistics-list {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+
+}
+
+.statistics-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 30%;
+margin-left: 2%;
+
+
+
+}
+
+.statistics-title {
+
+text-align: center;
+justify-content: center;
+color: #ffffff;
+margin-top: 7%;
+
+}
+
+.statistics-description {
+
+text-align: center;
+justify-content: center;
+align-items: center;
+align-content: center;
+align-self: center;
+color: #ffffff;
+width: 50%;
+
+}
+
+.statistics-circle {
+
+
+border-radius: 50%;
+border-color: #ffffff;
+border-style: solid;
+border-width: 5px;
+width: 40%;
+height: 170%;
+align-self: center;
+align-content: center;
+align-items: center;
+
+
+
+
+}
+
+.circle-title {
+
+text-align: center;
+align-items: center;
+align-content: center;
+align-self: center;
+margin-top: 13%;
+color: #ffffff;
+text-transform: uppercase;
+
+}
+
+.circle-description {
+
+text-align: center;
+align-content: center;
+align-items: center;
+align-self: center;
+color: #ffffff;
+text-transform: uppercase;
+
+}
+
+.combos {
+
+background-image: url('../img/combos.png');
+height: 789px;
+
+
+}
+
+.combos {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.combos-list {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+}
+
+.combos-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 28%;
+margin-left: 4%;
+align-self: center;
+align-items: center;
+align-content: center;
+background-color: #ffffff;
+height: 375px;
+text-align: center;
+
+
+}
+
+.package-title {
+
+text-align: center;
+align-items: center;
+align-self: center;
+align-content: center;
+color: #f60000;
+font-size: 48px;
+
+}
+
+.food-background {
+
+background-image: url('../img/food-background.png');
+height: 789px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+align-content: center;
+align-items: center;
+align-self: center;
+background-color: rgba(0,0,0,0.6);
+
+
+
+}
+
+.food-description {
+
+color: #ffffff;
+text-align: center;
+align-content: center;
+align-items: center;
+width: 50%;
+font-size: 32px;
+
+
+}
+
+.food-title {
+
+color: #ffffff;
+font-size: 48px;
+
+
+}
+
+.suscribe {
+
+background-image: url("../img/combos.png");
+height: 789px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+align-content: center;
+align-items: center;
+
+
+}
+
+.suscribe-description {
+
+
+width: 50%;
+color: #f60000;
+font-size: 25px;
+
+}
+
+
+.suscribe-title {
+
+color: #f60000;
+font-size: 40px;
+
+
+
+}
+
+.suscribe-button-background {
+
+height: 39px;
+background-color: #f60000;
+width: 150px;
+
+/* the border will curve into a 'D' */
+border-radius: 10px 40px 40px 10px;
+
+
+
+}
+
+.suscribe-button {
+
+
+	background-color: #f60000;
+	border-radius:28px;
+	border:1px solid #f60000;
+	display:inline-block;
+	cursor:pointer;
+	color: #ffffff;
+	font-family:Arial;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+	width: 130px;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+	height: 10px;
+	border-top-left-radius: 0%;
+	border-bottom-left-radius: 0%;
+	
+
+
+
+}
+
+.suscribe-form {
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+
+
+}
+
+.suscribe-p {
+
+margin-top: -5.5%;
+
+}
+
+.suscribe-input {
+
+font-size: 20px;
+border-style: solid;
+border-color: black;
+
+
+}
+
+.suscribe-input::placeholder {
+
+color: black;
+
+}
+
+footer {
+
+background-image: url(../img/footer.png);
+height: 394px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+
+}
+
+.footer-element-01 {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 60%;
+color: #ffffff;
+
+}
+
+.footer-element-02 {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 12%;
+color: #ffffff;
+
+}
+
+
+.footer-element-03 {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 12%;
+color: #ffffff;
+
+}
+
+.footer-element-04 {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 12%;
+color: #ffffff;
+
+}
+
+.footer-description {
+
+width: 70%;
+margin-left: 5%;
+
+}
+
+.footer-title {
+
+margin-left: 5%;
+
+}
+
+.big-burger {
+
+background-image: url('../img/big-burger.png');
+height: 789px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+
+}
+
+.big-burger-element {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-basis: 50%;
+text-align: center;
+align-items: center;
+align-self: center;
+align-content: center;
+
+
+
+}
+
+.big-burger-img {
+
+border-radius: 50%;
+width: 450px;
+height: 450px;
+
+}
+
+.big-burger-title {
+
+	color: #f60000;
+
+
+}
+
+.big-burger-description {
+
+	color: #f60000;
+	width: 80%;
+
+
+}
+
+.big-burger-button {
+
+	background-color:#f60000;
+	border-radius:28px;
+	border:1px solid #f60000;
+	display:inline-block;
+	cursor:pointer;
+    color: #ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #f60000;
+	width: 95px;
+	text-align: center;
+	align-self: center;
+	align-items: center;
+	align-content: center;
+
+
+
+}
+
+@media screen and (max-width: 1025px) {
+
+.item-menu {
+
+margin-right: 3%;
+
+}
+
+.best-burger-description {
+
+ width: 90%;
+ margin-left: 6%;
+
+}
+
+.best-burger-title{
+
+margin-top: 50%;
+
+}
+
+.combos-element {
+
+flex-basis: 29%;
+height: 390px;
+text-align: center;
+align-items: center;
+align-self: center;
+align-content: center;
+
+}
+
+
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .logo {
+
+	 width: 45px;
+	 margin-right: -5%;
+	
+
+	}
+
+
+	.item-menu {
+
+	margin-right: -5%;
+
+
+	}
+
+	.menu-item {
+
+    margin-right: -5%;
+
+	}
+
+	.menu {
+
+    display: none;
+
+	}
+
+	.banner-01-element {
+
+     flex-basis: 10%;
+
+	}
+
+	.banner-02-element {
+
+	flex-basis: 90%;
+	margin-top: 18%;
+
+	}
+
+	.best-burger {
+
+     height: 1000px;
+
+	}
+
+	.best-burger-title {
+
+	text-align: center;
+	align-items: center;
+	align-self: center;
+	align-content: center;
+	margin-left: 55%;
+	width: 100%;
+	margin-top: 0%;
+	
+
+
+	}
+
+	.best-burger-description {
+
+	 text-align: center;
+	 align-content: center;
+	 margin-left: 52%;
+	 width: 100%;
+	 
+	}
+
+	.best-hamburger-img {
+
+     margin-left: 35%;
+
+	}
+
+
+	.myButton01 {
+
+    margin-left: 55%;
+
+	}
+
+	.big-burger-title {
+
+		text-align: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+		margin-left: 100%;
+		width: 100%;
+
+	}
+
+	.big-burger-description {
+
+		text-align: center;
+		align-content: center;
+		margin-left: 95%;
+		width: 100%;
+
+
+	}
+
+	.big-burger-button {
+
+        
+		margin-left: 97.7%;
+
+	}
+
+	.big-burger-img {
+
+	margin-left: 74%;
+ 
+
+	}
+
+	.combos {
+
+     height: 100%;
+
+	}
+
+	.combos-list {
+
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 height: 100%;
+	 flex-basis: 15%;
+
+
+	}
+
+	.combos-element {
+
+	 display: flex;
+	 flex-direction: column;
+	 flex-wrap: wrap;
+	 flex-basis: 15%;
+	 height: 700px;
+	 margin-left: 0%;
+	 margin-right: 0%;
+	 background: transparent;
+
+	}
+   
+	.combos-button {
+
+    margin-left: 0%;
+
+	}
+
+	.food-background {
+
+	 height: 100%;
+	 background-repeat: no-repeat;
+
+	}
+
+
+	.food-background {
+
+      height: 789px;
+
+
+	}
+
+	.food-description {
+
+	 font-size: 32px;
+	 width: 70%;
+
+
+
+	}
+
+	.package-title {
+
+    margin-top: -13%;
+
+	}
+
+	.package-subtitle {
+	
+		margin-top: -10%;
+
+	}
+
+	.package-description {
+
+	 width: 50%;
+	 margin-bottom: 5%;
+
+	}
+
+	.combos-button {
+
+     margin-bottom: 5%;
+
+	}
+
+	.statistics-circle {
+
+	   border-radius: 100%; 
+	   width: 170px;
+	   height: 110px;
+
+
+	}
+
+	.statistics-title {
+
+      margin-top: 10%;
+
+	}
+
+
+	
+
+
+
+	
+
+	
+
+}
+
+@media screen and (max-width: 415px) {
+
+.chef-list {
+
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+.chef-element {
+
+flex-basis: 100%;
+
+
+}
+
+.chef-banner {
+
+height: 100%;
+
+}
+
+.chef-description {
+
+width: 72%;
+margin-left: 15%;
+
+}
+
+.chef-img {
+
+margin-right: 5%;
+
+}
+
+.chef-name {
+
+margin-right: 5%;
+
+
+}
+
+.chef-position {
+
+margin-right: 5%;
+
+}
+
+.best-hamburger-img {
+
+width: 395px;
+margin-left: 0.5%;
+
+
+}
+
+.best-burger-description {
+
+width: 370px;
+margin-left: 3.7%;
+
+
+}
+
+.best-burger-title {
+
+margin-left: 7.5%;
+
+}
+
+.myButton01 {
+
+margin-left: 5%;
+
+
+}
+
+.big-burger {
+
+height: 1000px;
+
+}
+
+.big-burger-img {
+
+margin-left: 1%;
+width: 400px;
+margin-top: -20%;
+
+
+}
+
+.big-burger-description {
+
+width: 360px;
+margin-left: 15%;
+
+}
+
+.big-burger-title {
+
+margin-left: 15%;
+
+}
+
+.big-burger-button {
+
+margin-left: 15%;
+
+
+}
+
+.statistics {
+
+height: 900px;
+
+}
+
+.statistics-description {
+
+width: 88%;
+margin-bottom: 15%;
+
+}
+
+.statistics-list {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+
+
+}
+
+.statistics-element {
+
+ flex-basis: 100%;
+
+}
+
+.statistics-circle {
+
+
+margin-bottom: 10%;
+
+
+
+}
+
+.combos-button {
+
+margin-left: 2%;
+
+}
+
+.package-description {
+
+width: 85%;
+
+}
+
+
+.food-description {
+
+width: 90%;
+
+}
+
+.suscribe {
+
+height: 820px;
+
+
+}
+
+.suscribe-description {
+
+width: 90%;
+
+
+}
+
+.suscribe-form {
+
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+
+}
+
+.suscribe-input {
+
+margin-bottom: 5%;
+
+}
+
+
+footer {
+
+	background-image: url(../img/footer.png);
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 100%;
+	
+	
+	
+	}
+
+	.footer-element-01 {
+
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		color: #ffffff;
+		text-align: center;
+		align-items: center;
+		align-self: center;
+	
+		
+		}
+		
+		.footer-element-02 {
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		color: #ffffff;
+	    text-align: center;
+		align-items: center;
+		align-self: center;
+		align-content: center;
+
+		}
+		
+		
+		.footer-element-03 {
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		color: #ffffff;
+		text-align: center;
+		align-content: center;
+	
+
+
+		}
+		
+		.footer-element-04 {
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		color: #ffffff;
+		text-align: center;
+		align-content: center;
+	
+		}
+
+
+
+
+}
+
+@media screen and (max-width: 376px) {
+
+
+.best-hamburger-img {
+
+width: 365px;
+
+}
+
+.best-burger-title {
+
+text-align: center;
+margin-left: 2%;
+
+}
+
+.best-burger-description {
+
+text-align: center;
+width: 370px;
+margin-left: 0%;
+
+}
+
+.myButton01 {
+
+margin-left: 1.7%;
+
+}
+
+.big-burger-title {
+
+margin-left: 2.3%;
+
+}
+
+.big-burger-description {
+
+margin-left: 1.5%;
+width: 365px;
+
+}
+
+.big-burger-button {
+
+margin-left: 2%;
+
+}
+
+.big-burger-img {
+
+width: 365px;
+
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
